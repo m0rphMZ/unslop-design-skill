@@ -78,7 +78,7 @@ Replace abstract 3D blobs, generic illustrations, stock offices and floating orb
 
 ### 7. Enlarge the main feature
 
-Every view has one primary job. Give it two to three times the visual weight of anything secondary. Make the product, the price, the article or the action dominant — not the background art.
+Every view has one primary job. Give it two to three times the visual weight of anything secondary. Make the product, the price, the article or the action dominant, not the background art.
 
 **Test:** squint until the screen blurs. Is the first thing you notice the thing that matters?
 
@@ -92,7 +92,7 @@ Proximity is stronger than borders. Space inside a group must be smaller than sp
 
 Use concrete nouns, numbers and outcomes. "Ship your first pipeline in 10 minutes" beats "Empower your workflow". "Invoices that reconcile themselves" beats "The future of finance".
 
-**Test:** put a competitor's logo on the page. Does the headline still fit? Then it is too generic — rewrite.
+**Test:** put a competitor's logo on the page. Does the headline still fit? Then it is too generic, so rewrite it.
 
 ### 10. Emphasize the CTA
 
@@ -138,7 +138,7 @@ Meet WCAG AA as a floor: body text 4.5:1, large text 3:1, UI boundaries 3:1. Nev
 
 ### 16. Wrap headlines properly
 
-Constrain display text to about 20–28 characters per line. Use `text-wrap: balance` on short headlines and `text-wrap: pretty` on body copy. Avoid an orphan — a single word stranded on the last line. Keep headlines to two or three lines maximum.
+Constrain display text to about 20–28 characters per line. Use `text-wrap: balance` on short headlines and `text-wrap: pretty` on body copy. Avoid an orphan: a single word stranded on the last line. Keep headlines to two or three lines maximum.
 
 **Test:** resize the container. No single-word last lines, no four-line headlines.
 
@@ -171,11 +171,11 @@ Animate cause and effect: where a panel came from, what changed, what is now act
 When reviewing an existing screen, respond in this shape:
 
 ```text
-Unslop score: 14/20 — Almost
+Unslop score: 14/20 (Almost)
 
-1. Rule 10 — three CTAs have equal weight.
+1. Rule 10: three CTAs have equal weight.
    Fix: make "Start free" solid, demote the other two to text links.
-2. Rule 15 — body copy is #9A9A9A on white (2.8:1).
+2. Rule 15: body copy is #9A9A9A on white (2.8:1).
    Fix: use #4A4A4A (9.1:1).
 ...
 ```

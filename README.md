@@ -15,7 +15,7 @@ Plain Markdown. No SDK, no dependencies, no vendor lock-in. If a model can read 
 | 1 | Delete filler badges | Keep only badges that change a decision |
 | 2 | Drop redundant labels | One label per control, one heading per section |
 | 3 | Unitalicize random words | Italics for emphasis, not decoration |
-| 4 | Mono only where needed | Code, IDs and data — never headlines |
+| 4 | Mono only where needed | Code, IDs and data, never headlines |
 | 5 | Use a design system | Every value comes from a token |
 | 6 | Show the actual product | Real UI, not abstract illustration |
 | 7 | Enlarge the main feature | One dominant element per view |
