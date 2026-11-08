@@ -1,4 +1,4 @@
-# The 20 rules — expanded reference
+# The 20 rules: expanded reference
 
 Use this file when a quick pass is not enough: edge cases, rationale, implementation notes and acceptance tests.
 
@@ -137,7 +137,7 @@ Use this file when a quick pass is not enough: edge cases, rationale, implementa
 
 ## 8. Group with spacing
 
-**Why.** Proximity is the strongest grouping cue — stronger than borders, backgrounds and dividers. Correct spacing removes the need for boxes.
+**Why.** Proximity is the strongest grouping cue, stronger than borders, backgrounds and dividers. Correct spacing removes the need for boxes.
 
 **Do**
 - Inside-group spacing smaller than between-group spacing: `8` vs `24`, `12` vs `32`.
@@ -199,7 +199,7 @@ Use this file when a quick pass is not enough: edge cases, rationale, implementa
 - One accent for interactive and active states.
 - Neutral surfaces and text.
 - Semantic colours reserved for success, warning, danger.
-- Keep accent coverage low — roughly under 10% of pixels.
+- Keep accent coverage low, roughly under 10% of pixels.
 
 **Don't**
 - Five brand colours at equal strength.
@@ -215,7 +215,7 @@ Use this file when a quick pass is not enough: edge cases, rationale, implementa
 **Why.** Mixed icon styles read as sloppy even when users cannot name why. Consistency makes a row of icons feel like one system.
 
 **Do**
-- One family: Lucide, Heroicons, Phosphor, Material Symbols — pick one.
+- One family: Lucide, Heroicons, Phosphor, Material Symbols. Pick one.
 - Same stroke width, fill style and corner treatment.
 - Same optical size: 16, 20 or 24px.
 - Align icons optically with adjacent text.
@@ -291,8 +291,8 @@ Examples:
 - UI boundaries, icons and focus rings: at least 3:1.
 
 **Watch out**
-- `#999` on white is about 2.85:1 — not enough for body.
-- `#767676` on white is about 4.54:1 — a safe minimum.
+- `#999` on white is about 2.85:1, which is not enough for body.
+- `#767676` on white is about 4.54:1, a safe minimum.
 - Reducing opacity lowers contrast; do not use `opacity: 0.5` for text.
 
 **Test.** Desaturate the screen and squint. If the body is hard to read, raise the contrast.
@@ -381,7 +381,7 @@ p  { max-width: 65ch; text-wrap: pretty; }
 - Submit: disable the button, show a pending label or spinner.
 - Lists: skeleton rows matching final row height.
 - Optimistic updates: apply immediately, roll back visibly on failure.
-- Empty and error states are part of loading design — design them too.
+- Empty and error states are part of loading design. Design them too.
 
 **Test.** Throttle to slow 3G. Is the interface honest about waiting? No silent clicks.
 
