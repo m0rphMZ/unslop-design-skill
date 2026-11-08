@@ -200,6 +200,3 @@ Unslop pass: 20/20. Removed 4 filler badges, set one primary CTA, used tabular n
 - Do not turn every screen into the same minimal template. Consistency comes from tokens and rules, not from deleting all character.
 - When a rule conflicts with a deliberate art direction, say so and apply the structural rules only.
 
-## Deep reference
-
-`references/rules.md` expands each rule with rationale, examples and acceptance tests. `examples/before-after.md` shows concrete fixes. `CHEATSHEET.md` is the one-screen version for a fast pass.
