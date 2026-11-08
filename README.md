@@ -9,8 +9,13 @@ A vendor-neutral skill that teaches AI models to remove "AI slop" from interface
 ├── README.md
 ├── LICENSE
 └── unslop-design/
-    └── SKILL.md
+    ├── SKILL.md
+    ├── checklist.md
+    ├── rules.md
+    └── examples.md
 ```
+
+`SKILL.md` is the entry point. The other three are references it points to: a fast checklist, the expanded rules, and before/after examples.
 
 ## Use it
 

@@ -7,6 +7,15 @@ description: Remove "AI slop" from UI designs with 20 fast, concrete rules. Use 
 
 A followable procedure for making AI-generated interfaces look intentional. It works on screenshots, live pages, components or code. It does not require a specific tool, framework or model.
 
+## Files
+
+- `SKILL.md`: procedure and the 20 rules.
+- `checklist.md`: one-screen pass/fail checklist for a fast audit.
+- `rules.md`: rationale, implementation notes and acceptance tests for each rule.
+- `examples.md`: before/after fixes and a worked mini audit.
+
+Start with this file. Read `checklist.md` for a quick review, `rules.md` when a rule is ambiguous or needs implementation detail, and `examples.md` when the user needs to see the fix.
+
 ## When to use
 
 - Generating any UI: landing page, dashboard, settings screen, empty state, form, modal.
@@ -35,6 +44,35 @@ Do not redesign everything. Scan in four phases and fix in order of impact.
 | Hierarchy (10s) | 6–11 | No product shown, no dominant element, weak grouping, vague headline, competing CTAs, grey-on-grey palette |
 | Craft (10s) | 12–17 | Mixed icon styles, decoration, pinched nested corners, low contrast, bad line breaks, optical misalignment |
 | Behaviour (10s) | 18–20 | Jittering numbers, silent waits, decoration-only motion |
+
+## How to run
+
+1. Identify the surface: landing page, dashboard, form, mobile screen, empty state, modal.
+2. Run the four phases in order. Do not inspect everything; inspect what each phase names.
+3. Fix by severity. Accessibility and honesty outrank hierarchy, which outranks craft.
+4. Re-score. Stop at 18/20 unless the surface is public or a hero.
+
+## Context profiles
+
+Give extra weight to these rules on these surfaces:
+
+| Surface | Extra weight |
+|---|---|
+| Landing page | 6, 7, 9, 10 |
+| Dashboard | 8, 15, 18, 19 |
+| Form | 2, 10, 15, 19 |
+| Mobile screen | 7, 10, 15, 17 |
+| Empty state | 9, 10, 19 |
+
+## Severity order
+
+Fix in this order. A lower item never justifies leaving a higher one broken.
+
+1. **Accessibility and honesty**: 15, 19, 20 (reduced motion), focus states.
+2. **Hierarchy and action**: 7, 8, 10, 11.
+3. **Truth and specificity**: 1, 2, 6, 9.
+4. **Craft**: 3, 4, 5, 12, 13, 14, 16, 17, 18.
+5. **Flourish**: 20 beyond essential feedback.
 
 ## The 20 rules
 
@@ -190,6 +228,12 @@ When generating a new screen, apply the rules silently, then add a short note:
 ```text
 Unslop pass: 20/20. Removed 4 filler badges, set one primary CTA, used tabular numerals, added loading + empty states.
 ```
+
+## Definition of done
+
+- Score 18/20 or higher, with every critical item passing: rules 10, 15 and 19.
+- No filler badges, one primary action, body text at AA, visible loading states, reduced motion respected.
+- The result still looks like the brand, not like this skill.
 
 ## Guardrails
 
