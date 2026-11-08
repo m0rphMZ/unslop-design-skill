@@ -18,7 +18,7 @@ Empower your workflow with AI-powered automation
 Close your books in 3 days, not 3 weeks
 ```
 
-**Why.** The first could belong to any product. The second names the job, the outcome and a real timeframe. If the timeframe is not true, use another true specific — never invent one.
+**Why.** The first could belong to any product. The second names the job, the outcome and a real timeframe. If the timeframe is not true, use another true specific. Never invent one.
 
 ---
 
@@ -115,7 +115,7 @@ h1 { max-width: 24ch; text-wrap: balance; }
 ```
 
 ```text
-Plan, build and ship together —
+Plan, build and ship together
 without the tool sprawl
 ```
 
@@ -247,17 +247,17 @@ one accent colour reserved for the primary action.
 **Input:** SaaS pricing page with four equal cards, five badges per card, `#999` body text, three solid buttons and no loading state.
 
 ```text
-Unslop score: 11/20 — Generic
+Unslop score: 11/20 (Generic)
 
-1. Rule 7 — four equal-weight pricing cards; no recommended plan.
+1. Rule 7: four equal-weight pricing cards; no recommended plan.
    Fix: enlarge the middle plan 1.2×, add "Most popular", keep others neutral.
-2. Rule 10 — three solid CTAs.
+2. Rule 10: three solid CTAs.
    Fix: one primary per card; demote "Contact sales" to a text link.
-3. Rule 1 — 20 badges, 16 decorative.
+3. Rule 1: 20 badges, 16 decorative.
    Fix: keep plan name, price and one real limit badge.
-4. Rule 15 — body copy #999 on white (2.8:1).
+4. Rule 15: body copy #999 on white (2.8:1).
    Fix: #4A4A4A (9.1:1).
-5. Rule 19 — "Upgrade" gives no feedback.
+5. Rule 19: "Upgrade" gives no feedback.
    Fix: disable + spinner + "Redirecting…", handle errors inline.
 ```
 
